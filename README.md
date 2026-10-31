@@ -8,8 +8,8 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=false&width=750&height=40&lines=Microsoft+Azure+%7C+Terraform+IaC+%7C+Zero-Trust+CI%2FCD;Building+Self-Healing+%26+FinOps-Optimized+Cloud+Platforms;Autonomous+SRE+Infrastructure+%26+Agentic+AI+Systems;100%2B+Workload+Enterprise+Cloud+Migrations" alt="Microsoft Azure | Terraform IaC | Zero-Trust CI/CD" />
   </p>
 
-  <!-- Title / Emoji Line (Exact Match to Reference Image) -->
-  <h3 align="center">🔐 Senior DevSecOps Engineer &amp; Cloud Architect | Agentic AI Systems</h3>
+  <!-- Title / Emoji Line (Junior DevOps Engineer) -->
+  <h3 align="center">🔐 Junior DevOps Engineer | Cloud &amp; Agentic AI Systems</h3>
 
   <!-- Tagline / Core Disciplines (Exact Match to Reference Image) -->
   <p align="center">
@@ -28,7 +28,7 @@
     </a>
   </p>
   <p align="center">
-    <img src="https://img.shields.io/badge/STATUS-AVAILABLE%20FOR%20SENIOR%20ROLES-238636?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=444D56" alt="Status: Available for Senior Roles" />
+    <img src="https://img.shields.io/badge/STATUS-AVAILABLE%20FOR%20JUNIOR%20ROLES-238636?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=444D56" alt="Status: Available for Junior Roles" />
   </p>
 
   <br />
@@ -37,11 +37,11 @@
 
 ---
 
-## 🧭 Executive Summary & Senior Architectural Mindset
+## 🧭 Executive Summary & Architectural Mindset
 
 > *"Security is not a gate at the end of delivery; it is the foundation upon which resilient enterprise platforms are engineered."*
 
-Welcome! I am **Vishal Kumar**, an **AI-Native Senior DevSecOps Engineer & Cloud Platform Architect** driven by an **architect-level systems engineering mindset**. While others focus merely on script syntax, I bridge the gap between **high-velocity business delivery**, **uncompromising enterprise governance**, and **next-generation AI automation (MCP, RAG & Autonomous SRE Agents)**. 
+Welcome! I am **Vishal Kumar**, an **AI-Native Junior DevOps Engineer** with an **architect-level systems engineering mindset**. While others focus merely on script syntax, I bridge the gap between **high-velocity business delivery**, **uncompromising enterprise governance**, and **next-generation AI automation (MCP, RAG & Autonomous SRE Agents)**. 
 
 My core focus centers on architecting **Cloud Adoption Framework (CAF) Landing Zones**, engineering **shift-left security pipelines**, spearheading **zero-downtime multi-tier cloud migrations (100+ workloads)**, embedding **FinOps guardrails**, and engineering **Agentic AI Infrastructure** that eliminates operational toil.
 
@@ -103,6 +103,57 @@ Every architecture I design is governed by 10 non-negotiable enterprise quality 
 ---
 
 ## 📐 Enterprise Architecture Blueprints
+
+### 🌐 Unified Master Architecture: DevSecOps + Agentic AI SRE + Kubernetes Runtime
+
+End-to-end integration uniting shift-left infrastructure automation, Model Context Protocol (MCP) diagnostic hosts, and self-healing GitOps pipelines into a zero-trust production cluster.
+
+```mermaid
+flowchart TD
+    subgraph CI ["Shift-Left DevSecOps & IaC Delivery"]
+        IaC["Modular IaC"]
+        Infracost["Infracost<br/>Budget Gate"]
+        Security["Checkov & Trivy<br/>Security Gate"]
+        Pipelines["Azure DevOps /<br/>GitHub Pipelines"]
+
+        IaC --> Infracost
+        IaC --> Security
+        Security --> Pipelines
+    end
+
+    subgraph AI ["Autonomous AIOps & Agentic SRE"]
+        MCP["Model Context<br/>Protocol Host"]
+        RAG["Vector Runbook<br/>RAG - Qdrant"]
+        Healing["Self-Healing<br/>GitOps Hotfix PR"]
+
+        MCP --> RAG
+        RAG --> Healing
+    end
+
+    subgraph Runtime ["☸️ Production Runtime"]
+        AKS["Zero-Trust AKS<br/>Cluster"]
+        SecurityRuntime["Cilium eBPF &<br/>Vault Secrets"]
+
+        AKS --> SecurityRuntime
+    end
+
+    Pipelines --> AKS
+    Healing --> AKS
+
+    classDef blueBox fill:#0B2545,stroke:#0078D4,stroke-width:2px,color:#FFFFFF;
+    classDef greenBox fill:#064E3B,stroke:#10B981,stroke-width:2px,color:#FFFFFF;
+    classDef purpleBox fill:#3B0764,stroke:#A855F7,stroke-width:2px,color:#FFFFFF;
+
+    class IaC,Infracost,Pipelines blueBox;
+    class Security,AKS,SecurityRuntime greenBox;
+    class MCP,RAG,Healing purpleBox;
+
+    style CI fill:#FFFDF5,stroke:#F59E0B,stroke-width:1.5px,color:#0F172A;
+    style AI fill:#FFFDF5,stroke:#A855F7,stroke-width:1.5px,color:#0F172A;
+    style Runtime fill:#FFFDF5,stroke:#10B981,stroke-width:1.5px,color:#0F172A;
+```
+
+---
 
 ### 1. Shift-Left DevSecOps CI/CD Delivery Pipeline
 
@@ -479,7 +530,7 @@ High availability is meaningless without actionable visibility. Telemetry is eng
 
 ## 🤝 Leadership, Governance & Vendor Delivery Framework
 
-Senior engineering goes beyond writing manifests — it requires clear ownership, technical delivery governance, and cross-functional alignment.
+Enterprise engineering goes beyond writing manifests — it requires clear ownership, technical delivery governance, and cross-functional alignment.
 
 ### Delivery RACI Matrix
 
